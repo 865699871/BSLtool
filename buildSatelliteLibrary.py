@@ -165,11 +165,11 @@ def main():
                         type=int,
                         default=100,
                         required=False)
-    parser.add_argument("-f", "--filter_identity", help="filter identity, default is 80%",
+    parser.add_argument("-f", "--filter_identity", help="filter identity, default is 80%%",
                         type=int,
                         default=80,
                         required=False)
-    parser.add_argument("-fa", "--filter_al", help="filter alignment length in lastz, default is 80%",
+    parser.add_argument("-fa", "--filter_al", help="filter alignment length in lastz, default is 80%%",
                         type=int,
                         default=80,
                         required=False)
