@@ -14,6 +14,16 @@ networkx  | 2.7.1 |
 StringDecomposer (https://github.com/ablab/stringdecomposer) with version 1.1.2.   
 Development environment: Linux  
 Development tool: Pycharm
+## Installation
+
+#### Source code (g++ version 5.3.1 or higher for stringdecomposer)
+
+```
+#install
+conda install -y --file requirements.txt
+cd ./stringdecomposer && make
+```
+
 ## Usage
 ```Bash
 usage: buildSatelliteLibrary.py [-h] -i TRF_RESULT_FILE -g GENOME_REF [-o OUTDIR] [-th THREADS] [-rn FILTER_REPEAT_NUMBER] [-ru FILTER_REPEAT_UNIT_LENGTH] [-f FILTER_IDENTITY]
